@@ -20,8 +20,8 @@ our $scenario = {
         {module=>'Org::Parser::Tiny', code_template=>'Org::Parser::Tiny->new->parse_file(<path>)'},
     ],
     datasets => [
-        {args=>{path=>"$dist_dir/examples/various.org"}},
-        {args=>{path=>"$dist_dir/examples/1000headlines.org"}},
+        {name=>'various.org'      , args=>{path=>"$dist_dir/examples/various.org"}},
+        {name=>'1000headlines.org', args=>{path=>"$dist_dir/examples/1000headlines.org"}},
     ],
 };
 
