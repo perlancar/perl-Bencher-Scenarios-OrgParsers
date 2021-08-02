@@ -2,3 +2,4 @@ Bencher-Scenarios-OrgParsers-*
 .build
 *~
 nytprof*
+.DS_Store
